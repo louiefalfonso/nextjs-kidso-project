@@ -69,9 +69,9 @@ const Header = () => {
                       </li>
                       <li>
                         <Link
-                          href="/contact"
+                          href="/contactus"
                           passHref
-                          className={pathname == "/contact" ? "active" : ""}
+                          className={pathname == "/contactus" ? "active" : ""}
                         >
                           Contact Us
                         </Link>
