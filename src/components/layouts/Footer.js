@@ -78,9 +78,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <i className="icon fal fa-map-marker-check" />
-                      <span>
-                        1247/Plot No. 39, 15th Phase, Colony, Hyderabad
-                      </span>
+                      <span>3 Perkins Square, London SE1 9HU</span>
                     </li>
                     <li>
                       <i className="icon fal fa-phone" />
@@ -93,9 +91,8 @@ const Footer = () => {
                     <li>
                       <i className="icon fal fa-envelope" />
                       <span>
-                        <a href="#">info@kidsocare.com</a>
-                        <br />
-                        <a href="#">help@kidsocare.com</a>
+                        support@example.com
+                        <br /> info@example.com
                       </span>
                     </li>
                   </ul>
@@ -142,8 +139,8 @@ const Footer = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
-              Copyright © 2023 Kidso - Modern Kindergarten Baby Care All rights
-              reserved.
+              Copyright © 2024 Kidso - Modern Kindergarten Baby Care All Rights
+              Reserved.
             </div>
           </div>
         </div>
