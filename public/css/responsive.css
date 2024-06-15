@@ -776,7 +776,7 @@ border: 1px solid #fe4b7b;
     font-weight: 600;
 }
 .mean-container .mean-nav ul li li a:first-child,.menu .sub-menu li:last-child {
-    border: none;
+  /*  border: none;*/
 }
 .menu .sub-menu li, .menu .children li {
     border-bottom: 1px solid rgba(217, 217, 217, 0.5);
@@ -1026,7 +1026,7 @@ box-shadow: 0 0 0 0;
     font-weight: 600;
 }
 .mean-container .mean-nav ul li li a:first-child,.menu .sub-menu li:last-child {
-    border: none;
+    /*border: none;*/
     }
 .menu .sub-menu li, .menu .children li {
     border-bottom: 1px solid rgba(217, 217, 217, 0.5);
@@ -1344,7 +1344,9 @@ border: 1px solid #fe4b7b;
         width: 100%;
     }
     
-    
+    .counter-area {
+   
+}
 
     .single-counter {
    margin-bottom: 30px;

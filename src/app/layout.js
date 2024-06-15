@@ -1,10 +1,14 @@
-import { Inter } from "next/font/google";
-
 import "../../public/css/style.css";
 import "../../public/css/responsive.css";
 import "../../public/css/bootstrap.min.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import "../../public/css/animate.min.css";
+import "../../public/css/magnific-popup.css";
+import "../../public/fontawesome/css/all.min.css";
+import "../../public/font-flaticon/flaticon.css";
+import "../../public/css/dripicons.css";
+import "../../public/css/slick.css";
+import "../../public/css/meanmenu.css";
+import "../../public/css/default.css";
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
