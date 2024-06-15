@@ -5373,9 +5373,7 @@ width: auto !important;
     font-weight: 500;
     font-size: 14px;
 }
-.quote-post{
-	background: url(../images/quote_bg.png);
-}
+
 .widget_media_image a:hover {
     padding-left: 0 !important;
 }
