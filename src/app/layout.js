@@ -1,5 +1,4 @@
-import "../../public/js/main";
-import Head from "next/head";
+import Script from "next/script";
 
 export const metadata = {
   title: "Kidso - Modern Kindergarten & Baby Care",
@@ -26,7 +25,121 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/responsive.css" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/vendor/modernizr-3.5.0.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/vendor/jquery-3.6.0.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/popper.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/bootstrap.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/slick.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/paroller.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/wow.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/parallax.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/jquery.waypoints.min.js"
+        />
+        <Script
+          type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/jquery.scrollUp.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/jquery.meanmenu.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/jquery.magnific-popup.min.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/parallax-scroll.js"
+        />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/element-in-view.js"
+        />
+        <Script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js" />
+        <Script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js" />
+        <Script
+          type="text/javascript"
+          id="hs-script-loader"
+          async
+          defer
+          src="js/main.js"
+        />
+      </body>
     </html>
   );
 }
