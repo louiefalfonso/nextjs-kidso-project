@@ -67,7 +67,7 @@ const ClassArea = () => {
                 </div>
                 <div className="class-content">
                   <h4 className="title">
-                    <Link href="/classes">Drawing Class</Link>
+                    <Link href="/classes/drawing-class">Drawing Class</Link>
                   </h4>
                   <p>
                     Curabitur dignissim at leo sit amet facilisis. Etiam
