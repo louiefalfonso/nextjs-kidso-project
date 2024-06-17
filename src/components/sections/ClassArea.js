@@ -98,7 +98,9 @@ const ClassArea = () => {
                 </div>
                 <div className="class-content">
                   <h4 className="title">
-                    <Link href="/classes">Mathematics Class</Link>
+                    <Link href="/classes/mathematics-class">
+                      Mathematics Class
+                    </Link>
                   </h4>
                   <p>
                     Curabitur dignissim at leo sit amet facilisis. Etiam
@@ -129,7 +131,7 @@ const ClassArea = () => {
                 </div>
                 <div className="class-content">
                   <h4 className="title">
-                    <Link href="/classes">Sports Class</Link>
+                    <Link href="/classes/sports-class">Sports Class</Link>
                   </h4>
                   <p>
                     Curabitur dignissim at leo sit amet facilisis. Etiam
@@ -160,7 +162,7 @@ const ClassArea = () => {
                 </div>
                 <div className="class-content">
                   <h4 className="title">
-                    <Link href="/classes">Knowledge Class</Link>
+                    <Link href="/classes/knowledge-class">Knowledge Class</Link>
                   </h4>
                   <p>
                     Curabitur dignissim at leo sit amet facilisis. Etiam
@@ -191,7 +193,7 @@ const ClassArea = () => {
                 </div>
                 <div className="class-content">
                   <h4 className="title">
-                    <Link href="/classes">Science Class</Link>
+                    <Link href="/classes/science-class">Science Class</Link>
                   </h4>
                   <p>
                     Curabitur dignissim at leo sit amet facilisis. Etiam
