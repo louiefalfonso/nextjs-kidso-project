@@ -6,7 +6,7 @@ const Footer = () => {
       <div
         className="footer-top pt-120 pb-80  p-relative"
         style={{
-          backgroundImage: "url(img/bg/footer-bg.png)",
+          backgroundImage: "url(../img/bg/footer-bg.png)",
           backgroundColor: "#fff",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",

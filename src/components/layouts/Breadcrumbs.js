@@ -5,7 +5,7 @@ export const Breadcrumbs = ({ breadcrumbTitle }) => {
     <>
       <div
         className="breadcrumb-area d-flex align-items-center"
-        style={{ backgroundImage: "url(img/bg/bdrc-bg.jpg)" }}
+        style={{ backgroundImage: "url(../img/bg/bdrc-bg.jpg)" }}
       >
         <div className="container">
           <div className="row align-items-center">
