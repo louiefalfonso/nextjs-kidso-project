@@ -26,7 +26,7 @@ const Header = () => {
                   <ul>
                     <li>
                       <div className="header-btn second-header-btn">
-                        <Link href="/contact" className="btn">
+                        <Link href="/contactus" className="btn">
                           Get Started
                         </Link>
                       </div>

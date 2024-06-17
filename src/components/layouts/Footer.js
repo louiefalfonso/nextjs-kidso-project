@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="col-xl-3 col-lg-3 col-sm-6">
               <div className="footer-widget mb-30">
                 <div className="f-widget-title mb-15">
-                  <img src="img/logo/f_logo.png" alt="img" />
+                  <img src="../img/logo/f_logo.png" alt="img" />
                 </div>
                 <div className="footer-text mb-20">
                   <p>

@@ -9,7 +9,7 @@ const LanguageClass = () => {
           <div className="container">
             <div className="row">
               <div className="text-column col-lg-8 col-md-8 col-sm-12">
-                <h2>Languge Class</h2>
+                <h2>Language Class</h2>
                 <div className="upper-box">
                   <div className="single-item-carousel owl-carousel owl-theme">
                     <figure className="image">
@@ -136,6 +136,51 @@ const LanguageClass = () => {
                     </li>
                   </ul>
                 </div>
+              </div>
+              <div className="col-lg-4">
+                <aside className="sidebar-widget">
+                  <section className="widget widget_search">
+                    <div className="course-widget-price">
+                      <h2 className="widget-title"> Course Features</h2>
+                      <ul>
+                        <li>
+                          {" "}
+                          <i className="fal fa-clock" /> <span> Starts </span>{" "}
+                          <span className="time"> May 29, 2022 </span>
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="fal fa-exclamation-circle" />{" "}
+                          <span> Duration </span>{" "}
+                          <span className="time"> 2 Months </span>
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="fab fa-leanpub" />{" "}
+                          <span> Class Duration </span>{" "}
+                          <span className="time"> 8-10am </span>
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="fal fa-user-graduate" />{" "}
+                          <span> Institution </span>{" "}
+                          <span className="time"> ABC University </span>
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="fal fa-plus-hexagon" />{" "}
+                          <span> Seats Available </span>{" "}
+                          <span className="time"> 23 Student </span>
+                        </li>
+                        <li>
+                          {" "}
+                          <i className="fal fa-user" /> <span> Level </span>{" "}
+                          <span className="time"> All level </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </section>
+                </aside>
               </div>
             </div>
           </div>

@@ -5337,6 +5337,10 @@ text-align: left;
 }
 
 /* 22. Theme sidebar widge css */
+.sidebar-widget {
+    position: sticky;
+    top: 0;
+}
 .sidebar-widget a{
 	color:#777;
 }
