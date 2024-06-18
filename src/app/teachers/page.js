@@ -1,17 +1,17 @@
 import React from "react";
 import Layout from "@/components/layouts/Layout";
-import ServiceArea from "@/components/sections/ServiceArea";
+import TeamAreas from "@/components/sections/TeamAreas";
 import BrandArea from "@/components/sections/BrandArea";
 
-const Services = () => {
+const Teachers = () => {
   return (
     <>
-      <Layout breadcrumbTitle="Services">
-        <ServiceArea />
+      <Layout breadcrumbTitle="Teachers">
+        <TeamAreas />
         <BrandArea />
       </Layout>
     </>
   );
 };
 
-export default Services;
+export default Teachers;
