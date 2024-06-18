@@ -1,22 +1,22 @@
 import React from "react";
 import Layout from "@/components/layouts/Layout";
 
-const LanguageClass = () => {
+const ScienceClass = () => {
   return (
     <>
-      <Layout breadcrumbTitle="Language Class">
+      <Layout breadcrumbTitle="Science Class">
         <section className="project-detail">
           <div className="container">
             <div className="row">
               <div className="text-column col-lg-8 col-md-8 col-sm-12">
-                <h2>Language Class</h2>
+                <h2>Science Class</h2>
                 <div className="upper-box">
                   <div className="single-item-carousel owl-carousel owl-theme">
                     <figure className="image">
                       <img
                         width={1213}
                         height={800}
-                        src="../img/class/class-1.jpg"
+                        src="../img/class/class-6.jpeg"
                         className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                         alt=""
                         decoding="async"
@@ -190,4 +190,4 @@ const LanguageClass = () => {
   );
 };
 
-export default LanguageClass;
+export default ScienceClass;
